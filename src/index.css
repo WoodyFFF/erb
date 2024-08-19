@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --clr-primary-10: #f4f8fb;
+  --clr-primary-9: #e8f0f6;
+  --clr-primary-8: #cbe2ec;
+  --clr-primary-7: #a2cbdd;
+  --clr-primary-6: #69acc7;
+  --clr-primary-5: #4692b1;
+  --clr-primary-1: #357694;
+  --clr-primary-2: #2c5e78;
+  --clr-primary-3: #275065;
+  --clr-primary-4: #254455;
+  --clr-primary-11: #192d38;
+
+--clr-grey-1: hsl(209,61%,35%);
+--clr-grey-2: hsl(209,61%,30%);
+--clr-grey-3: hsl(209,61%,25%);
+--clr-grey-4: hsl(209,61%,20%);
+--clr-grey-5: hsl(209,22%,49%);
+--clr-grey-6: hsl(209,63%,60%);
+--clr-grey-7: hsl(209,27%,70%);
+--clr-grey-8: hsl(209,31%,80%);
+--clr-grey-9: hsl(209,27%,90%);
+--clr-grey-10: hsl(209,27%,95%);
+--clr-grey-11: hsl(209,27%,98%);
+--clr-grey-12: hsl(209,27%,99%);
+--clr-white: hsl(0,0%,100%);
+--clr-black: hsl(0,0%,0%);
+--ff-primary:'Lato', san-serif;
+--transition: all 0.5s linear;
+--spacing: 0.25rem;
+--radius: 0.5rem;
+--light-shadow: 0 5px 15px rgba(0,0,0,0.1);
+--dark-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
 }
+
+html{
+  scroll-behavior: smooth;;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--clr-white);
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+
